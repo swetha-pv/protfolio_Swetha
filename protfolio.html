@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swetha's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: #fdfcfb;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #ffdde1;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #2a2a2a;
+    }
+    header p {
+      color: #555;
+      font-weight: 500;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      background: #fff1f2;
+      padding: 1rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+    nav a {
+      color: #b83280;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #800080;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 1.8rem;
+      color: #2a2a2a;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #ffc0cb;
+      padding-bottom: 0.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .mre-box, .cert-box, .skill-box, .interest-box, .edu-box, .project-box {
+      background: #fff0f5;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      transition: transform 0.3s;
+    }
+    .mre-box:hover, .cert-box:hover, .skill-box:hover, .interest-box:hover, .edu-box:hover, .project-box:hover {
+      transform: translateY(-5px);
+    }
+    a {
+      color: #800080;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Swetha P V</h1>
+    <p>Java Full Stack Developer</p>
+    <p>📞 +91 6305518403 | 📧 swethapv03@gmail.com</p>
+    <p>📍 Palamaner, India − 517408</p>
+    <p><a href="https://www.linkedin.com/in/swetha-p-v-a025a8340/" target="_blank">LinkedIn</a> | <a href="https://github.com/swetha-pv" target="_blank">GitHub</a></p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#interests">Interests</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#experience">Experience</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am an enthusiastic Java Full Stack Developer with experience in both frontend and backend development. I'm skilled in Java, MySQL, HTML, and UI/UX principles, and have a strong problem-solving mindset with a passion for creative arts and web technologies.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="grid">
+      <div class="edu-box">
+        <h4>B.Tech in CSE</h4>
+        <p>Mother Theresa Institute of Engineering and Technology<br>2022 – 2026, Palamaner</p>
+      </div>
+      <div class="edu-box">
+        <h4>Intermediate (MPC)</h4>
+        <p>Mother Theresa Junior College<br>2020 – 2022, Palamaner</p>
+      </div>
+      <div class="edu-box">
+        <h4>SSC</h4>
+        <p>Sri Sarada English Medium School<br>2015 – 2020, Palamaner</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="grid">
+      <div class="skill-box">Java</div>
+      <div class="skill-box">HTML</div>
+      <div class="skill-box">MySQL</div>
+      <div class="skill-box">Python</div>
+      <div class="skill-box">Excel</div>
+      <div class="skill-box">UI/UX</div>
+    </div>
+  </section>
+
+  <section id="interests">
+    <h2>Interests</h2>
+    <div class="grid">
+      <div class="interest-box">🎨 Drawing & Dance</div>
+      <div class="interest-box">💡 Creative Arts</div>
+      <div class="interest-box">📚 Web Research</div>
+      <div class="interest-box">✏️ Editing</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="project-box">Quiz App (Java)</div>
+      <div class="project-box">Java Calculator</div>
+      <div class="project-box">To-Do List App</div>
+      <div class="project-box">Temperature Converter</div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="grid">
+      <div class="cert-box">
+        <a href="https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs105/Course/NPTEL24CS105S65080112803841627.pdf" target="_blank">Programming in Java – NPTEL</a>
+      </div>
+      <div class="cert-box">
+        <a href="https://olympus.mygreatlearning.com/courses/55928/certificate?pb_id=581" target="_blank">UI/UX for Beginners – Great Learning</a>
+      </div>
+      <div class="cert-box">
+        <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/T6kdcdKSTfg2aotxT/hzmoNKtzvAzXsEqx8_T6kdcdKSTfg2aotxT_afc47gJo9hdcnzyjw_1748088459313_completion_certificate.pdf" target="_blank">Accenture – Data Analytics & Visualization</a>
+      </div>
+      <div class="cert-box">
+        <a href="https://certx.in/certificate/36a28147-6eed-47a5-8342-e5f926ebba61394232" target="_blank">Be 10x - Power Bi</a>
+      </div>
+ <div class="cert-box">
+        <a href="https://internalapp.nptel.ac.in/NOC/NOC25/SEM1/Ecertificates/106/noc25-cs44/Course/NPTEL25CS44S35080023304343550.pdf" target="_blank"> Introduction to Internet Of Things</a>
+      </div>
+      <div class="cert-box">
+        <a href="https://oneroadmap.io/skills/excel/certificate/CERT-4759C39B" target="_blank">Excel Certification – OneRoadmap</a>
+      </div>
+      <div class="cert-box">
+        <a href="https://www.credly.com/badges/dd4e2aa3-4a37-413a-acc2-d682702c10e1/linked_in_profile" target="_blank">AWS Cloud Foundations – Credly</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Internship Experience</h2>
+    <div class="grid">
+      <div class="mre-box">
+        <h4>Full Stack Java Intern</h4>
+        <p>SkillDzire (May 2025 – Present)</p>
+        <ul>
+          <li>Built full-stack Java applications and REST APIs</li>
+          <li>Collaborated on backend features in Agile teams</li>
+        </ul>
+      </div>
+     <div class="mre-box">
+  <h4>Data Analyst Intern</h4>
+  <p>Elevate Labs (Apr 2025 – May 2025)</p>
+  <ul>
+    <li>Completed 8+ real-world analytics tasks</li>
+    <li>
+      GitHub Repositories:
+      <ul>
+        <li><a href="https://github.com/swetha-pv/ecommerce-sql-analysis" target="_blank">Task: E-commerce SQL Analysis</a></li>
+<li><a href="https://github.com/swetha-pv/Tableau-Superstore-Analysis" target="_blank">Task: Tableau Superstore Analysis</a></li>
+<li><a href="https://github.com/swetha-pv/netflix_data_cleaning" target="_blank">Task: Netflix Data Cleaning</a></li>
+<li><a href="https://github.com/swetha-pv/youtube-analytics" target="_blank">Task: YouTube Trending Analytics</a></li>
+<li><a href="https://github.com/swetha-pv/Simple-Sales-Dashboard-Design" target="_blank">Task: Simple Sales Dashboard Design</a></li>
+<li><a href="https://github.com/swetha-pv/sales-summary" target="_blank">Task: Sales Summary</a></li>
+<li><a href="https://github.com/swetha-pv/Exploratory-Data-Analysis" target="_blank">Task: Exploratory Data Analysis</a></li>
+<li><a href="https://github.com/swetha-pv/Sales-Trend-Analysis" target="_blank">Task: Sales Trend Analysis</a></li>
+<li><a href="https://github.com/swetha-pv/business-insights" target="_blank">Task: Business Insights</a></li>
+
+    
+      </ul>
+    </li>
+  </ul>
+</div>
+
+    </div>
+  </section>
+
+  <footer style="text-align:center; padding:2rem; background:#fff1f2; color:#555;">
+    <p>© 2025 Swetha P V</p>
+  </footer>
+</body>
+</html>
